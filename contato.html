@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
+
+    <title>Execicio 1 Semana 3</title>
+
+</head>
+<body>
+    <header>
+
+        <div class="max-width">
+            <img src="img/home_1.png">
+        </div>    
+    
+        <nav>
+            <div class="max-width">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="quemsomos.html">Quem somos</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+
+    </header>
+
+    <section>
+        <div class="max-width">
+            
+            <div class="grid-70">
+                <div class="grid-100 p-30">
+                    <h1>Contato</h1>
+                </div>
+                <br>
+                <!-- inicio formulário-->
+
+                <div class="grid-50">
+                    <label for="txtnome">Nome</label>
+                    <input type="text" id="txtNome">
+                </div>
+
+                <div class="grid-50">
+                    <label for="txtEmail">E-mail</label>
+                    <input type="text" id="txtEmail">
+                </div>
+
+                <div class="grid-50">
+                    <label for="txtSenha">Senha</label>
+                    <input type="password" id="txtSenha">
+                </div>
+
+                <div class="grid-50">
+                    <label for="">Sexo</label>
+                    <label class="inline"><input type="radio" value="H" name="rdSexo" checked> Homem</label>
+                    <label class="inline"><input type="radio" value="M" name="rdSexo"> Mulher</label>
+                </div>
+
+                <div class="clear"></div>
+
+                <div class="grid-50">
+                    <label for="slEstado">Estado</label>
+                    <select name="slEstado" id="slEstado">
+                        <option value="SP">São Paulo</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                    </select>
+                </div>
+
+                <div class="grid-50 hide-on-mobile">
+                    <label>&nbsp;</label>
+                    <br>
+                    <hr>
+                </div>
+
+                <div class="grid-100">
+                    <label for="txtSobre">Fale sobre você.</label>
+                    <textarea name="txtSobre" id="txtSobre" cols="30"></textarea>
+                    </select>
+                </div>
+
+                <div class="grid-100">
+                    <input type="submit" class="btn" value="Enviar">
+                </div>
+
+                                <br>
+
+                <!-- fim formulario-->
+
+            </div>
+
+            <div class="grid-30 p-30">
+                <h1>Dicas</h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat consequat rhoncus. 
+                    Nunc mi libero, hendrerit mattis lacus sed, sodales suscipit nunc. Maecenas sit amet nunc at sapien 
+                    feugiat consequat. Aliquam quis commodo nibh, ac molestie arcu. Ut ac augue quis nisi finibus dapibus 
+                    varius sed nulla. Fusce maximus velit tristique neque consequat congue. Quisque aliquam volutpat libero, 
+                    at lobortis dolor vestibulum ac. Ut sed dolor odio. Morbi congue vestibulum euismod.</p>
+                <p>
+                    Fusce maximus velit tristique neque consequat congue. Quisque aliquam volutpat libero, 
+                    at lobortis dolor vestibulum ac. Ut sed dolor odio. Morbi congue vestibulum euismod.</p>
+            </div>
+
+            
+        </div>
+    </section>
+
+    <footer>
+
+    </footer>
+
+        
+    </body>
+</html>
