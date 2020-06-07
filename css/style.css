@@ -163,15 +163,15 @@ table tfoot td:last-child {
 .inline {
     display: inline !important; /*PARA quebrar o BLOCK*/
     margin-right: 10px;
-    margin-inlinessss: 100px !important;
+    
 }
 
 .btn{
+    color: #FFF;
+    background-color: #0288D1;
     margin: 10px 0;
     padding:10px;
     border:none;
-    background-color: #0288D1;
-    color: #FFF;
     float: right;
     cursor: pointer;
 }
