@@ -11,7 +11,7 @@
 }
 
 header {
-    background: rgb(73, 70, 70);
+    background: rgb(40, 42, 75);
 }
 
 header img {
@@ -19,7 +19,8 @@ header img {
     min-height: 81px;
     max-width: 127px;
     max-height: 81px;
-    margin: 20px;
+    margin: 20px 0 20px 0px;
+    
 }
 
 nav {
@@ -49,7 +50,7 @@ nav ul li a:hover {
 }
 
 .p-10 {
-    padding: 10px;
+    padding: 30px;
 }
 
 #home {
@@ -63,10 +64,12 @@ nav ul li a:hover {
 }
 
 #home img {
-    max-width: 100%;
+    min-width: 100%;
+    max-height: 186px;
     filter: grayscale(70%);
     transition: all .5s;
     cursor: pointer;
+    margin-bottom: 20px;
 }
 
 #home img:hover {
@@ -79,8 +82,9 @@ nav ul li a:hover {
     color: rgb(255, 255, 255);
     float: right;
     text-decoration: none;
-}
+    
 
-p{
+section p{
     margin: 15px 0 ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
