@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <link rel="stylesheet" href="css/pallet.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/unsemantic-grid-responsive.css">
 
@@ -29,7 +29,7 @@
 
     </header>
 
-    <section>
+    <section id="form">
         <div class="max-width">
             
             <div class="grid-70">
@@ -38,7 +38,6 @@
                 </div>
                 <br>
                 <!-- inicio formulário-->
-
                 <div class="grid-50">
                     <label for="txtnome">Nome</label>
                     <input type="text" id="txtNome">
@@ -53,20 +52,22 @@
                     <label for="txtSenha">Senha</label>
                     <input type="password" id="txtSenha">
                 </div>
-
-                <div class="grid-50">
+                
+                
+                <div class="grid-50 ">
                     <label for="">Sexo</label>
                     <label class="inline"><input type="radio" value="H" name="rdSexo" checked> Homem</label>
                     <label class="inline"><input type="radio" value="M" name="rdSexo"> Mulher</label>
                 </div>
 
-                <div class="clear"></div>
+                <div class="clear"></div> <!-- Espaço quebra linha-->
 
                 <div class="grid-50">
                     <label for="slEstado">Estado</label>
                     <select name="slEstado" id="slEstado">
-                        <option value="SP">São Paulo</option>
+                        <option value="RS">Rio Grande do Sul</option>
                         <option value="RJ">Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
                     </select>
                 </div>
 
@@ -77,16 +78,17 @@
                 </div>
 
                 <div class="grid-100">
-                    <label for="txtSobre">Fale sobre você.</label>
-                    <textarea name="txtSobre" id="txtSobre" cols="30"></textarea>
+                    <label for="txtArea">Fale sobre você.</label>
+                    <textarea name="txtArea" id="txtArea" ></textarea>
                     </select>
                 </div>
+                <br>
 
                 <div class="grid-100">
                     <input type="submit" class="btn" value="Enviar">
                 </div>
 
-                                <br>
+                <br>
 
                 <!-- fim formulario-->
 
